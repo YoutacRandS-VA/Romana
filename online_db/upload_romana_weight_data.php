@@ -1,9 +1,9 @@
-<?php
+e<?php
 
     $_REQUEST = (array)$_POST + (array)$_GET + (array)$_REQUEST;
 	$dbServername = "177.221.140.106";
-	$dbUsername = "mslepecl_post";
-	$dbPassword = "Wz}m1##VzFGKF+$$";
+	$dbUsername = "username";
+	$dbPassword = "password";
 	$dbName = "mslepecl_other";
 	$conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 	$acentos = $conn->query("SET NAMES 'utf8'");
