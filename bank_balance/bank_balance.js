@@ -10,17 +10,6 @@ puppeteer.use(StealthPlugin())
 
 const conn = require('../config/db');
 
-/*
-const mysql = require('mysql');
-const conn = mysql.createConnection({ 
-    host: "172.27.55.204",
-    port: 3306,
-    user: "marcos", 
-    password: "M@r$l1985_:)", 
-    database: "romana" 
-});
-*/
-
 const delay = ms => { return new Promise(resolve => { setTimeout(resolve, ms) }) }
 
 const bank_url = 'https://login.portalempresas.bancochile.cl/bancochile-web/empresa/login/index.html#/login';
