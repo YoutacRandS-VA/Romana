@@ -1,7 +1,7 @@
 e<?php
 
     $_REQUEST = (array)$_POST + (array)$_GET + (array)$_REQUEST;
-	$dbServername = "177.221.140.106";
+	$dbServername = "server";
 	$dbUsername = "username";
 	$dbPassword = "password";
 	$dbName = "mslepecl_other";
