@@ -23,7 +23,7 @@ try:
 
     print("Logging in ...")
     ftp.connect(host, port)
-    ftp.login("marcos@mslepe.cl", "VB3428jf4369")
+    ftp.login("user", "password")
     print("logged in")
     ftp.cwd("/romana/bk/")
 
