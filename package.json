@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.26.1",
+    "axios": "^0.28.0",
     "bcryptjs": "^2.4.3",
     "crypto": "^1.0.1",
     "dotenv": "^9.0.2",
